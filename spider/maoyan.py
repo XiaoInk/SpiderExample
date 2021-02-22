@@ -22,7 +22,7 @@ class MaoYan(object):
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36'
         }
         self.cookies = None
-        self.request(INDEX_URL)
+        self.request(INDEX_URL)  # 获取cookies
 
     def top100(self, offset: int = 0, limit: int = 1):
         while True:

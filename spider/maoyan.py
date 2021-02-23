@@ -11,6 +11,7 @@ import requests
 from bs4 import BeautifulSoup
 
 logging.basicConfig(level=logging.INFO)
+
 INDEX_URL = 'https://maoyan.com/'
 TOP100_URL = 'https://maoyan.com/board/4?offset={offset}'
 
